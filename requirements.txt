@@ -1,0 +1,9 @@
+dm-acme==0.4.0
+dm-haiku==0.0.9
+dm-tree==0.1.8
+jax==0.3.25
+jaxlib==0.3.25
+numpy==1.21.6
+optax==0.1.4
+tensorflow==2.8.0
+tensorflow-datasets==4.8.2
