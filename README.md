@@ -54,7 +54,23 @@ encoder_class in config/eval.py.
 
 ## SemPPL Checkpoints
 
-We will update this once the GCP bucket is public.
+We provide the following SemPPL checkpoints for different ResNet architectures:
+
+| Architecture  | 1%  | 10% |
+| ------------- | --- | --- |
+| ResNet-50 1x  | [download](https://storage.googleapis.com/dm-semppl/resnet_50_1x_1_pct.pkl) | [download](https://storage.googleapis.com/dm-semppl/resnet_50_1x_10_pct.pkl) |
+| ResNet-50 2x  | [download](https://storage.googleapis.com/dm-semppl/resnet_50_2x_1pct.pkl) | [download](https://storage.googleapis.com/dm-semppl/resnet_50_2x_10pct.pkl) |
+| ResNet-50 4x  | [download](https://storage.googleapis.com/dm-semppl/resnet_50_4x_1pct.pkl) | [download](https://storage.googleapis.com/dm-semppl/resnet_50_4x_10pct.pkl) |
+| ResNet-200 2x | [download](https://storage.googleapis.com/dm-semppl/resnet_200_2x_1pct.pkl) | [download](https://storage.googleapis.com/dm-semppl/resnet_200_2x_10pct.pkl) |
+
+We also provide the the following SemPPL checkpoints for ResNet + Selective
+Kernels (SK) architectures:
+
+| Architecture       | 1%  | 10% |
+| ------------------ | --- | --- |
+| ResNet-50 1x + SK  | [download](https://storage.googleapis.com/dm-semppl/sk_resnet_50_1x_1_pct.pkl) | [download](https://storage.googleapis.com/dm-semppl/sk_resnet_50_1x_10_pct.pkl) |
+| ResNet-50 2x + SK  | [download](https://storage.googleapis.com/dm-semppl/sk_resnet_50_2x_1pct.pkl) | [download](https://storage.googleapis.com/dm-semppl/sk_resnet_50_2x_10pct.pkl) |
+| ResNet-200 2x + SK | [download](https://storage.googleapis.com/dm-semppl/sk_resnet_200_2x_1pct.pkl) | [download](https://storage.googleapis.com/dm-semppl/sk_resnet_200_2x_10pct.pkl) |
 
 ## Citing this work
 
